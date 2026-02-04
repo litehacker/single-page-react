@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:25.6.0-bookworm
 RUN mkdir -p /app/src
 WORKDIR /app/src
 COPY package.json .
